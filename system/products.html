@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PRODUCTS</title>
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("Getty.jpg");
+		background-size: cover;
+	}
+	button:hover{
+		color: white;
+		background-color:#009688;
+	}
+	
+</style> 
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Products</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=""><span class="navbar-toggler-icon"></span></button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="farm.html">Home</a>
+				</li>
+			</ul>
+			<div>
+				<a href="mycart.php" class="btn btn-outline-success">My Cart(0)</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<form action="manage.php" method="POST">
+					<div class="card">
+						<img src="disc.jpg" class="card-img-top">
+						<div class="card-body text-center">
+							<h5 class="card-title">Plough</h5>
+							<p class="card-text">Price:Tsh5,000</p>
+							<button type="submit" class=btn btn-info><i class="fa fa-shopping-cart"> Add To Cart</i></button>
+							<input type="hidden" name="item_name" value="bg1">
+							<input type="hidden" name="Price" value="5,000">
+						</div>
+					</div>
+				</form>	
+			</div>
+			<div class="col-lg-3">
+				<form action="manage.php" method="POST">
+					<div class="card">
+						<img src="disc.jpg" class="card-img-top">
+						<div class="card-body text-center">
+							<h5 class="card-title">Raker</h5>
+							<p class="card-text">Price:Tsh7,000</p>
+							<button type="submit" class=btn btn-info><i class="fa fa-shopping-cart"> Add To Cart</i></button>
+							<input type="hidden" name="item_name" value="bg2">
+							<input type="hidden" name="Price" value=",000">
+						</div>
+					</div>
+				</form>	
+			</div>
+			<div class="col-lg-3">
+				<form action="manage.php" method="POST">
+					<div class="card">
+						<img src="disc.jpg" class="card-img-top">
+						<div class="card-body text-center">
+							<h5 class="card-title">Tractor</h5>
+							<p class="card-text">Price:Tsh10,000</p>
+							<button type="submit" class=btn btn-info> <i class="fa fa-shopping-cart"> Add To Cart</i></button>
+							<input type="hidden" name="item_name" value="bg3">
+							<input type="hidden" name="Price" value="10,000">
+						</div>
+					</div>
+				</form>	
+			</div>
+			<div class="col-lg-3">
+				<form action="manage.php" method="POST">
+					<div class="card">
+						<img src="disc.jpg" class="card-img-top">
+						<div class="card-body text-center">
+							<h5 class="card-title">Plough harrow</h5>
+							<p class="card-text">Price:Tsh8,000</p>
+							<button type="submit" class=btn btn-info><i class="fa fa-shopping-cart"> Add To Cart</i></button>
+							<input type="hidden" name="item_name" value="bg4">
+							<input type="hidden" name="Price" value="8,000">
+						</div>
+					</div>
+				</form>	
+			</div>
+			<div class="col-lg-3">
+				<form action="manage.php" method="POST">
+					<div class="card">
+						<img src="board-plough.jpeg" class="card-img-top">
+						<div class="card-body text-center">
+							<h5 class="card-title">Board plough</h5>
+							<p class="card-text">Price:Tsh6,000</p>
+							<button type="submit" class=btn btn-info><i class="fa fa-shopping-cart"> Add To Cart</i></button>
+							<input type="hidden" name="item_name" value="bg5">
+							<input type="hidden" name="Price" value="6,000">
+						</div>
+					</div>
+				</form>	
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

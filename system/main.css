@@ -1,0 +1,9 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bg{
+	position: relative;
+	background-image: url("fm.jpg");
+	
+}
